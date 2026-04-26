@@ -23,7 +23,7 @@ include 'koneksi.php';
                         <p class="text-muted">Lengkapi data untuk akses sistem</p>
                     </div>
 
-                    <form action="proses_register.php" method="POST">
+                    <form action="api/proses_register.php" method="POST">
                         <div class="mb-3">
                             <label class="form-label">Nama Lengkap</label>
                             <input type="text" name="nama" class="form-control" placeholder="Nama sesuai identitas" required>
